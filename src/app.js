@@ -87,6 +87,7 @@ app.post("/repositories/:id/like", (request, response) => {
     );
 
   findRepository.likes += 1;
+  
 
   repositories[findRepositoryIndex] = findRepository
 
